@@ -4,4 +4,8 @@ class Song
     @artist = artist
     @duration = duration
   end
+
+  def to_s
+    "Song: #{@name} -- #{@artist} #{@duration}"
+  end
 end
